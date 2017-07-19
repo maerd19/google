@@ -12,8 +12,14 @@
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	
-	<style>
-			element.style {
+<style>
+section{
+    margin-left: 25%;
+}
+#search{
+    width: 600px;
+}
+element.style {
 }
 ._hq {
     bottom: 0;
@@ -270,10 +276,21 @@ Inherited from html body, html {
 
 	<section>
 		<article>
-			<img src="http://pysnnoticias.com/wp-content/uploads/2017/04/utLjfz.jpg">
+                <img src="http://pysnnoticias.com/wp-content/uploads/2017/04/utLjfz.jpg">
 		</article>
 		<article>
-			<input id="search" type="" name="">
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="input-group">
+                    <input id="search" type="text" class="form-control" aria-label="...">
+                  <span class="input-group-addon">
+                    <input type="checkbox" aria-label="...">
+                  </span>
+                </div>
+              </div>
+            </div>
+
 		</article>
 		<article></article>
 	</section>
@@ -284,5 +301,6 @@ Inherited from html body, html {
 
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+   <script scr="js/index.js"></script>
  </body>
 </html>
